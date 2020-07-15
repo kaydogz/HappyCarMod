@@ -1,0 +1,27 @@
+modLoader="javafml" #mandatory
+loaderVersion="[31,)" #mandatory
+
+[[mods]] #mandatory
+modId="happycarmod" #mandatory
+version="1.0.0" #mandatory
+displayName="Happy Car Mod" #mandatory
+displayURL="https://github.com/kaydogz" #optional
+
+credits="Made for modgod and his son." #optional
+authors="Kaydogz" #optional
+description='''
+This simple mod adds a happy cartoon race car into the game.
+'''
+
+[[dependencies.happycarmod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.happycarmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

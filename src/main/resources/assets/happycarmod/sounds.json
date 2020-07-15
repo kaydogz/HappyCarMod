@@ -1,0 +1,18 @@
+{
+  "entity.car.start": {
+    "sounds": [
+      {
+        "name": "happycarmod:entity/car/start",
+        "volume": 1.0
+      }
+    ]
+  },
+  "entity.car.driving": {
+    "sounds": [
+      {
+        "name": "happycarmod:entity/car/driving",
+        "volume": 0.3
+      }
+    ]
+  }
+}
